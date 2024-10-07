@@ -6,8 +6,6 @@ main:
     url: /about/
   - title: "Paper and Preprint" 
     url: /publish/
-  - title: "123"
-    url: /123/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
  
