@@ -4,7 +4,7 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Publish" 
+  - title: "Paper and Preprint" 
     url: /publish/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
