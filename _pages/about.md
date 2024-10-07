@@ -3,6 +3,7 @@ layout: page
 title:  "about"
 permalink: /about/
 toc: true
+author_profile: true
 ---
 # Short CV
 - Born 29 August 2001 in Taiwan.
