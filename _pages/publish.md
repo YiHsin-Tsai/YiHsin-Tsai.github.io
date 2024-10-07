@@ -1,8 +1,7 @@
 ---
 layout: page
 title:  "Publish"
+permalink: /publish/
 ---
 
 
-
-permalink: /publish/
