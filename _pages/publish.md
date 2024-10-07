@@ -1,5 +1,4 @@
 ---
-layout: pages
 title:  "Paper and Preprint"
 permalink: /publish/
 ---
