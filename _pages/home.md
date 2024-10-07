@@ -1,6 +1,5 @@
 ---
-type: page
+type: pages
 title: "Home"
 permalink: /
-toc: true
 ---
