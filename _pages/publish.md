@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pages
 title:  "Paper and Preprint"
 permalink: /publish/
 ---
