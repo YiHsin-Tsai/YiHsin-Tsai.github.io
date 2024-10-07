@@ -119,9 +119,9 @@ author:
   location         : "Taipei, Taiwan"
   email            : "r12221003@ntu.edu.tw"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:r12221003@ntu.edu.tw"
+    - # label: "Email"
+      # icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:r12221003@ntu.edu.tw"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://yihsin-tsai.github.io"
