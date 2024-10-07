@@ -145,6 +145,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "ORCID"
+      icon: "fa-brands fa-orcid"
+      url: "https://orcid.org/0009-0004-5051-3899"
     - # label: "Twitter"
       # icon: "fab fa-fw fa-twitter-square"
       # url:
