@@ -3,7 +3,22 @@ layout: archive
 ---
 
 {{ content }}
-<div class="tip" markdown="1">{% include home.md}</div>
+
+<head>
+  ...
+  <!-- Import element definition -->
+  <script
+    type="module"
+    src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
+  ></script>
+  ...
+</head>
+<body>
+  ...
+  <!-- Profit! -->
+  <zero-md src="/_pages/home.md"></zero-md>
+  ...
+</body>
 
 <!--
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
