@@ -1,7 +1,5 @@
 ---
 layout: home
-title:
+title: About
 author_profile: true
 ---
-## fjiefje
- fjiejfiefwfwefwef
