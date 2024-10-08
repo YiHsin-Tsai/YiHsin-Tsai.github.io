@@ -1,6 +1,6 @@
 ---
 layout: home
-title: About
+title: Welcome to my homepage!
 author_profile: true
 ---
 ## Short CV
