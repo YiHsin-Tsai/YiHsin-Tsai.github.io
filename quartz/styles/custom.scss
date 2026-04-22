@@ -1,7 +1,7 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-h3[id^="information"] {
+h3[id^="Information"] {
   display: none;
   // 同時隱藏它在右側目錄 (Table of Contents) 中的顯示
   & + .toc-item {
