@@ -2,7 +2,6 @@
 layout: home
 title: Welcome to my homepage!
 author_profile: true
-date: 2024-10-01
 last_modified_at: 2026-04-22
 ---
 I am a research assistant at [NCTS](https://ncts.ntu.edu.tw/index.php), with my mentor [Chin-Yu Hsiao](https://www.math.ntu.edu.tw/en/entity_people/entity_people/21601).
