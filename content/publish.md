@@ -7,7 +7,9 @@ title: "Papers & Preprints"
 ### Preprints
 - Semi-Classical Asymptotic Expansions for Toeplitz Quantizations on Complex Manifolds and Orbifolds(Master Thesis).  
   [arXiv](https://arxiv.org/abs/2508.00008)
-
+  Keywords: [[Bergman Kernel]]
+  Abstract:
+  
 ---
 
 ### Journal Papers
