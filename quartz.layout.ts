@@ -51,6 +51,10 @@ export const defaultContentPageLayout: PageLayout = {
     // 其餘部分維持預設：資料夾在前，之後按字母排序
     return a.name.localeCompare(b.name)
   },
+  filter: (node) => {
+    // 隱藏名稱為 "private" 的資料夾
+    return node.name !== "papers"
+  },
 }),
   ],
   right: [
@@ -92,6 +96,10 @@ export const defaultListPageLayout: PageLayout = {
     
     // 其餘部分維持預設：資料夾在前，之後按字母排序
     return a.name.localeCompare(b.name)
+  },
+      filter: (node) => {
+    // 隱藏名稱為 "private" 的資料夾
+    return node.name !== "papers"
   },
 }),
   ],
