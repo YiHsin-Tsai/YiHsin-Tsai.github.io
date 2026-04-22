@@ -22,6 +22,9 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
+    Component.ContentMeta({
+  showReadingTime: false, // 隱藏 1 min read
+}),
     Component.TagList(),
   ],
   left: [
@@ -48,7 +51,9 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta({
+  showReadingTime: false, // 隱藏 1 min read
+})],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
