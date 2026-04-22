@@ -3,7 +3,7 @@ title: Semi-Classical Asymptotic Expansions for Toeplitz Quantizations on Comple
 ---
 
 
-### Information {#hidden}
+<h3 id="hidden">Information</h3>
 
 [arXiv](https://arxiv.org/abs/2508.00008)  
 Keywords: [[bergman kernel|Bergman Kernel]]  
