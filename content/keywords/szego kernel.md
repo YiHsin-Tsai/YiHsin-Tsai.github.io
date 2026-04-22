@@ -1,3 +1,3 @@
 ---
-title: "Szegő Kernel:
+title: "Szegő Kernel"
 ---
