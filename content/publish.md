@@ -10,4 +10,4 @@ title: "Papers & Preprints"
 
 ---
 ### Preprints
-- ![[semiclassicaltoeplitzquantization]]
+- ![[semiclassicaltoeplitzquantization#^block]]
