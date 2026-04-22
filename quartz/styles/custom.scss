@@ -1,3 +1,13 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* 隱藏外部連結圖標 */
+svg.external-link-icon {
+  display: none !important;
+}
+
+/* 如果你的主題是用其他方式顯示圖標，可以補上這一段 */
+a[target="_blank"]::after {
+  content: none !important;
+}
