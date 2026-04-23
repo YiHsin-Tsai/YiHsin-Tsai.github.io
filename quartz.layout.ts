@@ -37,20 +37,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
   title: "", // 將標題設為空字串
- sort(a, b) {
-    // 定義你想置頂的檔案名稱 (不含 .md)
-    const sticky = ["publish", "cv"] 
-    
-    if (sticky.includes(a.name) && !sticky.includes(b.name)) {
-      return -1
-    }
-    if (!sticky.includes(a.name) && sticky.includes(b.name)) {
-      return 1
-    }
-    
-    // 其餘部分維持預設：資料夾在前，之後按字母排序
-    return a.name.localeCompare(b.name)
-  },
 }),
   ],
   right: [
@@ -79,20 +65,6 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
   title: "", // 將標題設為空字串
- sort(a, b) {
-    // 定義你想置頂的檔案名稱 (不含 .md)
-    const sticky = ["publish", "cv"] 
-    
-    if (sticky.includes(a.name) && !sticky.includes(b.name)) {
-      return -1
-    }
-    if (!sticky.includes(a.name) && sticky.includes(b.name)) {
-      return 1
-    }
-    
-    // 其餘部分維持預設：資料夾在前，之後按字母排序
-    return a.name.localeCompare(b.name)
-  },
 }),
   ],
   right: [],
