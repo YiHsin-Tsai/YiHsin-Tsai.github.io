@@ -37,6 +37,15 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
   title: "", // 將標題設為空字串
+  filter: (node) => {
+    // 排除名稱為 papers 的資料夾
+    if (node.name.toLowerCase() === "papers") return false
+    
+    // 排除路徑中包含 papers/ 的檔案
+    if (node.file?.path?.includes("papers/")) return false
+    
+    return true
+}
 }),
   ],
   right: [
