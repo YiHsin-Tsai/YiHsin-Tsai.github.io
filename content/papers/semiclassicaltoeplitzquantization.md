@@ -1,14 +1,12 @@
 ---
 title: Semi-Classical Asymptotic Expansions for Toeplitz Quantizations on Complex Manifolds and Orbifolds(Master Thesis)
-tags:
-  - Bergman Kernel
 ---
 
 
 <h3 id="hidden">Information</h3>
 
 [arXiv](https://arxiv.org/abs/2508.00008)  
-
+#Bergman-Kernel  
 <details>
 <summary>Abstract</summary>
 
