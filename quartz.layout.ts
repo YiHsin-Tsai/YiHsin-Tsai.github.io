@@ -72,7 +72,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({{
+    Component.Explorer({
   title: "", // 將標題設為空字串
   filter: (node) => {
     // 排除名稱為 papers 的資料夾
