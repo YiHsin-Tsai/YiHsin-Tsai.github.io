@@ -37,6 +37,15 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
   title: "", // 將標題設為空字串
+  filterFn: (node) => {
+    // set containing names of everything you want to filter out
+    const omit = new Set(["papers"])
+ 
+    // can also use node.slug or by anything on node.data
+    // note that node.data is only present for files that exist on disk
+    // (e.g. implicit folder nodes that have no associated index.md)
+    return !omit.has(node.displayName.toLowerCase())
+  },
 }),
   ],
   right: [
