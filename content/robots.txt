@@ -1,0 +1,9 @@
+---
+title: robots
+draft: false
+layout: "raw"
+---
+User-agent: *
+Allow: /
+
+Sitemap: https://yihsin-tsai.github.io/sitemap.xml
