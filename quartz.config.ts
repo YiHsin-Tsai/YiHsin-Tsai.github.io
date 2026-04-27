@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Yi-Hsin Tsai",
-    pageTitleSuffix: "Yi-Hsin Tsai",
+    pageTitleSuffix: " | Yi-Hsin Tsai",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
